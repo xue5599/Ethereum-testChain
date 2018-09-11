@@ -2,3 +2,5 @@ venv/*
 venv1/*
 venv2/*
 MyToken.sol
+__pycache__/*
+.idea/*

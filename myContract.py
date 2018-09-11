@@ -6,6 +6,9 @@ w3 = Web3(HTTPProvider(config.url))
 
 myEth = w3.eth
 
+myPersonal = w3.personal
+
+
 contract = w3.eth.contract(address=Web3.toChecksumAddress(config.address), abi=config.abi)
 
 allAccounts = myEth.accounts
