@@ -1,7 +1,7 @@
 # Ethereum-testChain
 以太坊测试链
 
-## 本程序要运行于python3.6， 需要安装web3.py
+## 本程序要运行于python3.6（低版本不支持）， 需要安装web3
 ## 一共三个文件 config.py myContract.py main.py
 ## 主账户发行了 99999999999999999999700 个token, 若需要奖励token从主账户转出就可（直接用下文的transfer）
 
